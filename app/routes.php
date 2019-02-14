@@ -10,6 +10,6 @@ $router->get('tasks', 'PagesController@tasks');
 $router->post('tasks', 'PagesController@tasks');
 $router->post('names-update', 'controller/update-name.php');
 $router->get('about/culture', 'controller/about-culture.php');
-$router->get('create-product' 'ProductController@create');
+$router->get('create-product', 'ProductController@create');
 
 

@@ -1,5 +1,6 @@
 <?php
 
+namespace App\Models;
 class Category {
 	private $name;
 	private $created;
